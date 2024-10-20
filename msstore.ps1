@@ -1,8 +1,8 @@
-Script Highlights:
-~~~~~~~~~~~~~~~~~
+# Script Highlights:
+# ~~~~~~~~~~~~~~~~~
 # Install Microsoft Store on Windows 10, 11
 # Including Windows Sandbox and Windows LTSC systems
-============================================================================================#>
+# ============================================================================================#>
 
 if (-not([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
     Write-Warning "You need to have Administrator rights to run this script!`nPlease re-run this script as an Administrator in an elevated powershell prompt!"
